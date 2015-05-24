@@ -1,0 +1,1 @@
+define(['lib/rqDir!test/files'], function(files){return(files);});

@@ -1,0 +1,38 @@
+{
+  "name": "rq-dir",
+  "version": "1.0.0",
+  "description": "A RequireJS plugin to recursively require files from a directory",
+  "keywords": ["node", "requirejs", "directory", "recursive", "require"],
+  "homepage": "https://github.com/dbartholomae/node-rq-dir",
+  "bugs": "https://github.com/dbartholomae/node-rq-dir/issues",
+  "license": "MIT",
+  "author": "Daniel Bartholomae <daniel@bartholomae.name>",
+  "main": "lib/rqDir.js",
+  "dependencies": {
+    "node-dir": "0.1.8"
+  },
+  "peerDependencies": {
+    "requirejs": "2.*"
+  },
+  "devDependencies": {
+    "mocha": "2.2.4",
+    "chai": "2.3.0",
+    "sinon-chai": "2.7.0",
+    "sinon": "1.14.1",
+    "coffee-script": "1.7.1"
+  },
+  "directories": {
+    "lib": "./lib",
+    "man": "./doc",
+    "example": "./example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbartholomae/node-requirejs-dir.git"
+  },
+  "scripts": {
+    "pretest": "npm run build",
+    "build": "coffee -c -o ./lib ./src",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  }
+}
