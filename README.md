@@ -1,7 +1,7 @@
 # node-rq-dir@1.0.0
 **onde-rq-dir** is a RequireJS plugin to recursively require files from a directory.
 It is useful when using requirejs with node. Please note that although the examples are written in CoffeeScript,
-the plugin currently only reads JavaScript files. Any other files in the folder will cause an error.
+the plugin currently only reads JavaScript files. Any other files in the folder will be ignored.
 
 ```coffeescript
 define ['rq-dir!configDir', 'path'], (dir, path) ->
@@ -21,6 +21,7 @@ Assuming the following directory structure
 |   +-- config
 |   |   +-- router.js
 |   |   +-- database.js
+|   |   +-- info.txt
 |   |   +-- middleware
 |   |   |   +-- security.js
 ```

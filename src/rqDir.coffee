@@ -13,6 +13,7 @@
       dir.files dirname, (err, paths) ->
         onload.error err if err
         onload.error new Error "Directory " + dirname + " is empty" if paths.length is 0
+        paths = (p for p in paths when path.extname(p) is ".js")
         require paths, (modules...) ->
           paths = paths.map (p) -> path.relative basePath, p
           moduleObject = {}

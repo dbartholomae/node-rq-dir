@@ -3,7 +3,6 @@ chai = require('chai')
 chai.use(require 'sinon-chai')
 expect = chai.expect
 
-When = require 'when'
 requirejs = require('requirejs')
 
 requirejs.config

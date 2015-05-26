@@ -1,6 +1,6 @@
 {
   "name": "rq-dir",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A RequireJS plugin to recursively require files from a directory",
   "keywords": ["node", "requirejs", "directory", "recursive", "require"],
   "homepage": "https://github.com/dbartholomae/node-rq-dir",
