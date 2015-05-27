@@ -1,6 +1,6 @@
 {
   "name": "rq-dir",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A RequireJS plugin to recursively require files from a directory",
   "keywords": ["node", "requirejs", "directory", "recursive", "require"],
   "homepage": "https://github.com/dbartholomae/node-rq-dir",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dbartholomae/node-requirejs-dir.git"
+    "url": "https://github.com/dbartholomae/node-rq-dir.git"
   },
   "scripts": {
     "pretest": "npm run build",
