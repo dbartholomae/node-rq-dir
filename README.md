@@ -1,5 +1,6 @@
 # node-rq-dir@1.0.0
-**onde-rq-dir** is a RequireJS plugin to recursively require files from a directory.
+## !!! This package is no longer maintained !!!
+**node-rq-dir** is a RequireJS plugin to recursively require files from a directory.
 It is useful when using requirejs with node. Please note that although the examples are written in CoffeeScript,
 the plugin currently only reads JavaScript files. Any other files in the folder will be ignored.
 
