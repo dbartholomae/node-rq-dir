@@ -1,4 +1,7 @@
 # node-rq-dir@1.0.0
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dbartholomae/node-rq-dir.svg)](https://greenkeeper.io/)
+
 **onde-rq-dir** is a RequireJS plugin to recursively require files from a directory.
 It is useful when using requirejs with node. Please note that although the examples are written in CoffeeScript,
 the plugin currently only reads JavaScript files. Any other files in the folder will be ignored.
